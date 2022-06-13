@@ -8,7 +8,7 @@ class SpaceXImages extends React.Component {
       const images = this.props.images.map(i => <img  alt={i} className="h-48 w-48 center cursor-pointer" src={i} />);
       return (
         <div>
-          <h1>Click an image</h1>
+          <h1>Gallery</h1>
           {images}
         </div>
       );
